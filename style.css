@@ -1,5 +1,5 @@
 body{
-    background-image:url(pizza-background.jpg);
+    background-image:url("./pizza-background.jpg");
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
 }
@@ -29,7 +29,7 @@ body{
 }
 
 .contact_us{
-    background-image:url(clouds.jpg);
+    background-image:url("./clouds.jpg");
 }
 
 .shopping_cart{
@@ -52,13 +52,13 @@ body{
 
 @media(min-width:760px){
     body{
-        background-image: url(pizzaback3.jpg);
+        background-image: url("./pizzaback3.jpg");
     }
 }
 
 @media(min-width:960px){
     body{
-        background-image: url(pizza-background.jpg);
+        background-image: url("./pizza-background.jpg");
     }
     .pizzas{
         display:flex;
